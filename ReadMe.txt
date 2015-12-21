@@ -1,3 +1,7 @@
+Fork Changes:
+- added AccessibilityIDs for easier navigation with Appium.
+
+
 UICatalog: Creating and Customizing UIKit Controls
 ===========================================================================
 
