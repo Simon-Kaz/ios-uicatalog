@@ -251,6 +251,9 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="progress_views_button"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </label>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="AAPLProgressViewController" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kcr-a6-k3K">
                                                     <rect key="frame" x="15" y="25.5" width="151.5" height="13.5"/>
@@ -1417,6 +1420,9 @@
                                             <subviews>
                                                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="B0n-DT-vtW">
                                                     <rect key="frame" x="20" y="21" width="280" height="2"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="default_progress_bar"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </progressView>
                                             </subviews>
                                             <constraints>
@@ -1440,6 +1446,9 @@
                                             <subviews>
                                                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="f4T-bB-46X">
                                                     <rect key="frame" x="20" y="21" width="285" height="3"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="bar_progress_bar"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </progressView>
                                             </subviews>
                                             <constraints>
@@ -1464,6 +1473,9 @@
                                             <subviews>
                                                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="YI7-Zn-dPs">
                                                     <rect key="frame" x="20" y="21" width="285" height="2"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="tinted_progress_bar"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </progressView>
                                             </subviews>
                                             <constraints>
